@@ -62,3 +62,14 @@ header {
     gap: 35px;
     list-style: none;
 }
+
+.nav-links a {
+    color: #fffaf4;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.65;
+}
