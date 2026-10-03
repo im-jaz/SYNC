@@ -262,3 +262,22 @@ header {
     text-transform: uppercase;
     color: #9a8570;
 }
+
+/* contact */
+.contact {
+    text-align: center;
+    background-color: #f5f1eb;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contact .section-heading {
+    max-width: 600px;
+    margin: 0 auto 35px;
+}
+
+.section-heading p{
+    margin-top: 18px;
+    font-size: 0.9rem;
+    color: #786b5e;
+}
