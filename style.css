@@ -73,3 +73,25 @@ header {
 .nav-links a:hover {
     opacity: 0.65;
 }
+
+/* hero section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 120px 20px 60px;
+
+    background-image:
+        linear-gradient(
+            rgba(28, 24, 20, 0.35),
+            rgba(28, 24, 20, 0.4)
+        ),
+        url("pj1.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
