@@ -305,3 +305,18 @@ header {
     background-color: #59483b;
     color: #fffaf4;
 }
+
+/* Footer */
+
+.footer {
+    padding: 25px 7%;
+    text-align: center;
+    background-color: #eae3d9;
+    border-top: 1px solid #d9cfc2;
+}
+
+.footer p {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    color: #8b7a69;
+}
