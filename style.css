@@ -172,3 +172,36 @@ header {
     color: #8a7765;
 }
 
+/* projects */
+.projects {
+    background-color: #eae3d9;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+/* Each project is split into an image
+   and a content area */
+
+.project-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    background-color: #f8f5f0;
+    overflow: hidden;
+    min-height: 350px;
+    border: 1px solid rgba(93, 75, 58, 0.1);
+}
+
+/* Project image */
+
+.project-card img,
+.project-image {
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+    object-fit: cover;
+}
