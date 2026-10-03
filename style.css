@@ -55,3 +55,10 @@ header {
     letter-spacing: 4px;
     color: #fffaf4;
 }
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+}
