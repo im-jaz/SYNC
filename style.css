@@ -281,3 +281,27 @@ header {
     font-size: 0.9rem;
     color: #786b5e;
 }
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.contact-link {
+    display: inline-block;
+    min-width: 150px;
+    padding: 13px 25px;
+    border: 1px solid #9e8b78;
+    color: #59483b;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease,
+                color 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: #59483b;
+    color: #fffaf4;
+}
