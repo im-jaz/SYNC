@@ -391,3 +391,28 @@ header {
         padding-bottom: 80px;
     }
 }
+
+@media (max-width: 400px) {
+
+    .nav-links {
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 0.7rem;
+        letter-spacing: 0;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+        letter-spacing: 3px;
+    }
+
+    .contact-links {
+        flex-direction: column;
+    }
+
+    .contact-link {
+        width: 100%;
+    }
+}
