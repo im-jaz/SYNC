@@ -95,3 +95,19 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.hero h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.5rem, 7vw, 5.5rem);
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 1.2;
+}
+
+.hero p {
+    margin-top: 18px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
