@@ -48,5 +48,9 @@ const projects = [
 
     }
 ];
+
+const projectList = document.getElementById("project-list") ;
+
+
           
 
