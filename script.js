@@ -8,4 +8,15 @@ const testimonials = {
     }
 };
 
+t2: {
+    name: "Client Name Two" ,
+    role: "Role or Company" ,
+    text: "Testimonial text here. "
+},
+
+t3: {
+    name: "Client Naem Three" ,
+    role: "Role or Company" ,
+    text: "Testimonial text here. "
+    
 }
