@@ -51,6 +51,21 @@ const projects = [
 
 const projectList = document.getElementById("project-list") ;
 
+//Loop through array and build a card for each project
+for (const project of projects) {
+    const card = document.createElement("article");
+    card.className = "project-card";
+    card.innerHTML = `
+    <img class="project-image" src="${project.image}">
+    <div class="project-content">
+    <h3> class="project-title">${project.title}</h3>
+    <p> class="project-description">${project.description}</p>
+    <p> class="project-tech">Tech used: $[project.tech.join(", ")}</p>
+    </div>
+
+    `;
+    projectList.appendChild(card);
+}
 
           
 
