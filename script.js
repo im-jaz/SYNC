@@ -18,7 +18,7 @@ const testimonials = {
 };
 
 // Find the empty container in index.html
-const testimonialistList =document.getElementById("testimonial-list");
+const testimonialList =document.getElementById("testimonial-list");
 
 // Loop through the object and build a card for each testimonial
 for (const id in testimonials) {
@@ -29,7 +29,7 @@ for (const id in testimonials) {
     <p>${t.text}</p>
     <h3>${t.name} , ${t.role}</h3>
     `;
-    testimonialistList.appendChild(card);
+    testimonialList.appendChild(card);
 }
 
 //Projects stored in an array of objects
@@ -39,5 +39,14 @@ const projects = [
         description: "Describe what you built here." ,
         tech: ["HTML", "CSS", "JavaScript"] ,
         image: "project1.jpg"
+    },
+    {
+         title : "Project two" ,
+         description : "Describe what you built here." ,
+         tech : ["HTML", "CSS"] ,
+         image : "project2.jpg"
+
     }
 ];
+          
+
