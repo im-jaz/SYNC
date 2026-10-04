@@ -66,7 +66,7 @@ To run the project locally:
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:im-jaz/SYNC.git
 ```
 
 2. Open the project folder.
