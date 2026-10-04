@@ -1,21 +1,18 @@
 // Testimonials stored in an object
 const testimonials = {
     t1: {
-        name: "Client Name One" ,
-        role: " Role or Company" ,
-        text: "Testimonial text here."
+        name: "Sarah Johnson" ,
+        role: "Recipe Finder User" ,
+        text: "Beautifully designed and incredibly intuitive to use."
+
     },
     t2: {
-    name: "Client Name Two" ,
-    role: "Role or Company" ,
-    text: "Testimonial text here. "
-    },
-    t3: {
-    name: "Client Name Three" ,
-    role: "Role or Company" ,
-    text: "Testimonial text here. "
+    name: "Michael Lee" ,
+    role: "Weather Dashboard User" ,
+    text: "Clean interface with an excellent user experience."
     }
-};
+ };
+
 
 // Find the empty container in index.html
 const testimonialList =document.getElementById("testimonial-list");
@@ -35,15 +32,16 @@ for (const id in testimonials) {
 //Projects stored in an array of objects
 const projects = [
     {
-        title: "Project one" ,
-        description: "Describe what you built here." ,
+        title: "Recipe Finder" ,
+        description: "A recipe discovery platform with search and save features." ,
         tech: ["HTML", "CSS", "JavaScript"] ,
         image: "project1.jpg"
     },
+
     {
-         title : "Project two" ,
-         description : "Describe what you built here." ,
-         tech : ["HTML", "CSS"] ,
+         title : "Weather Dashboard" ,
+         description : "A weather application displaying real-time conditions and forecasts." ,
+         tech : ["HTML", "CSS", "JavaScript"],
          image : "project2.jpg"
 
     }
@@ -56,11 +54,11 @@ for (const project of projects) {
     const card = document.createElement("article");
     card.className = "project-card";
     card.innerHTML = `
-    <img class="project-image" src="${project.image}">
+    <img class="project-image" src="${project.image}" alt="${project.title}">
     <div class="project-content">
-    <h3> class="project-title">${project.title}</h3>
-    <p> class="project-description">${project.description}</p>
-    <p> class="project-tech">Tech used: $[project.tech.join(", ")}</p>
+    <h3 class="project-title">${project.title}</h3>
+    <p class="project-description">${project.description}</p>
+    <p class="project-tech">Tech used: ${project.tech.join(", ")}</p>
     </div>
 
     `;
