@@ -35,7 +35,7 @@ const projects = [
         title: "Recipe Finder" ,
         description: "A recipe discovery platform with search and save features." ,
         tech: ["HTML", "CSS", "JavaScript"] ,
-        image: "project1.jpg"
+        image: "l.jpg"
     },
 
     {
