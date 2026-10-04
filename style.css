@@ -269,6 +269,12 @@ header {
     color: #9a8570;
 }
 
+/* alternating card placement */
+.project-card:nth-child(even) img {
+    order: 2;
+}
+
+
 /* contact */
 .contact {
     text-align: center;
