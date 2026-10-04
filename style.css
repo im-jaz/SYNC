@@ -74,7 +74,8 @@ header {
 
 /* hero section */
 .hero {
-    min-height: 100vh;
+    height: min(840px, 88svh);
+    min-height: 570px;
     display: flex;
     justify-content: center;
     align-items: center;
