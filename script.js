@@ -31,3 +31,13 @@ for (const id in testimonials) {
     `;
     testimonialistList.appendChild(card);
 }
+
+//Projects stored in an array of objects
+const projects = [
+    {
+        title: "Project one" ,
+        description: "Describe what you built here." ,
+        tech: ["HTML", "CSS", "JavaScript"] ,
+        image: "project1.jpg"
+    }
+];
