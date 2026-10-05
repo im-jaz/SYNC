@@ -113,7 +113,7 @@ header {
     width: 45px;
     height: 1px;
     margin: 25px auto;
-    background: var(--hero-foreground);
+    background: #fffaf4;
 }
 
 .hero h3 {
