@@ -93,6 +93,12 @@ Possible future improvements include:
 * Expanding the project showcase
 * Improving accessibility and semantic structure
 
+## Live Demo
+
+View the live website here :
+
+im-jaz.github.io/SYNC/
+
 ## Authors
 
 **Jazmine Amunga & Collins Korir**
