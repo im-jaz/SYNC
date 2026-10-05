@@ -97,7 +97,7 @@ Possible future improvements include:
 
 View the live website here :
 
-im-jaz.github.io/SYNC/
+https://im-jaz.github.io/SYNC/
 
 ## Authors
 
