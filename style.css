@@ -109,6 +109,13 @@ header {
     line-height: 1.2;
 }
 
+.hero-rule {
+    width: 45px;
+    height: 1px;
+    margin: 25px auto;
+    background: var(--hero-foreground);
+}
+
 .hero h3 {
     margin-top: 18px;
     font-family: Georgia, "Times New Roman", serif;
